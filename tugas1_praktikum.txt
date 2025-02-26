@@ -1,0 +1,28 @@
+1. Jelaskan apa yang dimaksud dengan dokumen root ?
+    Jawab: Dokumen root adalah direktori atau folder dimana file website disimpan, yang dapat diakses melalui URL atau domain yang dikonfigurasi.
+
+2. Pada apache web server, apakah dokumen root harus terletak dalam direktori
+    C:\xampp\htdocs ? Jelaskan jawaban anda
+    Jawab: Pada Apache web server, dokumen root biasanya terletak dalam direktori C:\xampp\htdocs terutama ketika menggunakan XAMPP. Tapi, Kita dapat mengubah lokasi dokumen root sesuai kebutuhan. Biasanya dilakukan dengan mengedit file konfigurasi Apache yang bernama httpd.conf
+
+3. Jelaskan apa yang dimaksud dengan perintah git : init, clone, remote, add, commit, push
+    dan checkout 
+    Jawab:  init >> Membuat repositori Git baru di direktori saat ini. Ini akan menginisialisasi direktori yang kamu pilih sebagai repositori Git.
+            clone >> Mengunduh repositori yang ada dari server dan menyalinnya ke komputer lokal kamu.
+            remote >> Mengelola koneksi ke repositori jarak jauh (remote). Kamu bisa menambahkan, menghapus, atau melihat remote yang ada.
+            add >> Menambahkan perubahan file yang baru atau yang telah diubah ke area staging, sehingga siap untuk di-commit.
+            commit >> Menyimpan snapshot dari perubahan yang ada di area staging ke dalam repositori lokal.
+            push >> Mengunggah commit dari repositori lokal ke repositori jarak jauh. Ini akan mengirimkan perubahan yang telah kamu commit ke server.
+            checkout >> Beralih ke cabang (branch) yang berbeda atau mengembalikan file ke keadaan tertentu. Ini digunakan untuk berpindah antara cabang atau commit yang berbeda.
+
+4. Jelaskan perbedaan antara GitHub dan GitLab
+    Jawab: GitHub memiliki antarmuka pengguna yang sederhana dan mudah digunakan, menjadikannya pilihan yang populer bagi pengembang individu dan tim kecil.
+    Sedangkan, GitLab memiliki antarmuka yang lebih kompleks dengan banyak fitur tambahan, yang mungkin memerlukan waktu untuk dipelajari, terutama bagi pengguna baru.
+
+5. Apa bedanya variable user dengan variable system ?
+    Jawab: Perbedaan utama antara keduanya adalah bahwa System variables adalah variable global yang berlaku untuk seluruh user yang mengakses PC atau sebuah sistem, 
+    sedangkan User Variable adalah khusus untuk user yang sedang digunakan, jika pengguna lain masuk ke sistem, variabel ini tidak akan tersedia bagi mereka.
+
+6. Apa persamaan variable system dengan variable constant ?
+    Jawab: Kedua jenis variabel ini ditentukan pada awal dan tidak berubah selama eksekusi program atau sesi, keduanya digunakan untuk menyimpan informasi yang perlu diakses secara konsisten di berbagai bagian program atau sistem,
+    karena nilainya tetap, keduanya memberikan keandalan dalam pengaturan dan konfigurasi, memastikan bahwa tidak ada perubahan tak terduga yang dapat menyebabkan kesalahan.
